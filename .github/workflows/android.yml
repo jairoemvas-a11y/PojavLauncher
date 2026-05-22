@@ -1,4 +1,5 @@
 name: Android CI
+[![Android CI](https://github.com/PojavLauncherTeam/PojavLauncher/actions/workflows/android.yml/badge.svg)](https://github.com/PojavLauncherTeam/PojavLauncher/actions/workflows/android.yml)
 
 on:
   pull_request:
