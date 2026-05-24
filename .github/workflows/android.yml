@@ -1,3 +1,4 @@
+
 name: Android CI
 
 on:
@@ -116,10 +117,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-release-aab
-          path: out/app-gplay.aab
 
-      - name: Upload onto the Google Play testing track
-        continue-on-error: true
+
         if: github.repository_owner == 'PojavLauncherTeam' && github.ref_name == 'v3_openjdk'
         uses: r0adkll/upload-google-play@v1.1.2
         with:
